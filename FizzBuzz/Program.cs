@@ -10,7 +10,7 @@ namespace FizzBuzz
         {
             List<int> numbers = Enumerable.Range(0, 106).ToList();
 
-            //List<int> numbers = new List<int>() { 1, 2, (-3), 4, (-5), 15 };
+            //List<int> numbers = new List<int>() { 1, 2, (-3), 4, (-5), 15, (-105) };
 
             void FizzBuzz(int divByThree, int divByFive, int newMultiple, string newWord)
             {
